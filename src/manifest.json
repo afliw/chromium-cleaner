@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "chromium-cleaner",
+  "description": "Clear Chromium/Chrome browsing history on startup/exit",
+  "author": "afliw <aflivv@gmail.com>",
+  "version": "0.2",
+  "icons": {
+    "128": "icon.png"
+  },
+  "permissions": [
+    "tabs",
+    "browsingData",
+    "background"
+  ],
+  "background": {
+    "scripts": ["index.js"],
+	  "persistent": true
+  }
+}
