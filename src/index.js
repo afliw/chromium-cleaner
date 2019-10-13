@@ -41,6 +41,5 @@ function deleteAll() {
           if(chrome.browsingData.removeCacheStorage) {
               chrome.browsingData.removeCacheStorage({since: 0});
           }
-          fetch("http://requestbin.net/r/1dfie991", {method: "POST", body: "Try #4"})
       });
 }
